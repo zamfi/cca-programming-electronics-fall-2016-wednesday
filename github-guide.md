@@ -27,7 +27,7 @@ each assignment in that homework.
 
 ### To create a new file for an assignment ###
 
-1.  Click the "+" link on your repository page:
+1.  Click the "Create new file" button on your repository page:
     
     ![New File](img/new-file.png?raw=true)
 
