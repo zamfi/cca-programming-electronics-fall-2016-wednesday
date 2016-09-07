@@ -12,7 +12,7 @@ This homework has two parts; first, complete the exercises we began in class usi
   - There's a cheat sheet of syntax on the right, under the puzzle itself.
   - **Assignment: Solve the first 8 puzzles; try to include at least 3 functions of your own definition. (They don't all have to be in the same puzzle.)**
   - **Assignment: Use a `while` or `for` loop for puzzles 7 and 8.**
-  - **Assignment: Publish your code on the web, and [send me](mailto:jzamfirescupereira@cca.edu) the link. For this class, use [GitHub](../github-guide.md) to publish your work; your solution to *each puzzle should be in its own file*, named `puzzle-1.js`, `puzzle-1.js`, etc.**
+  - **Assignment: Publish your code on the web, and [send us](mailto:jzamfirescupereira@cca.edu,mshiloh@cca.edu) the link. For this class, use [GitHub to publish your work](../github-guide.md); your solution to *each puzzle should be in its own file*, named `puzzle-1.js`, `puzzle-1.js`, etc.**
   
   You may find the following **advice** extraordinarily helpful; **I recommend reading it carefully**:
   
@@ -48,7 +48,7 @@ This homework has two parts; first, complete the exercises we began in class usi
 
 - **Assignment:** Download and install the p5.js **Editor** from [http://p5js.org/download/#editor](http://p5js.org/download/#editor) -- you don't need the "complete library" or "single files".
 
-- **Assignment: Get extra help by going to the Hybrid Lab during staffed hours (I believe 9am-10pm) and asking the coaches for help!**
+- **Assignment: Get extra help by going to the Hybrid Lab during staffed hours (I believe 9am-10pm weekdays and 12pm-7pm on weekends) and asking the coaches for help!**
 
 - **Assignment: Bring your computer to class on Wednesday, September 14!**
 
