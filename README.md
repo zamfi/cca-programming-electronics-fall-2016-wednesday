@@ -58,6 +58,7 @@ Lecture:
 
 Workshop:
 -   Together, we'll write code to generate this image:
+    
     ![rects](img/rects.png)
 
 Lab:
