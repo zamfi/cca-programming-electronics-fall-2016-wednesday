@@ -116,4 +116,4 @@ Lab:
 
 6. ![five](img/five.png)
 
-6. Look through the [Processing reference](http://p5js.org/reference/). Pick a function, and use it in a new sketch of your own choosing.
+6. Look through the [P5js reference](http://p5js.org/reference/). Pick a function, and use it in a new sketch of your own choosing.
