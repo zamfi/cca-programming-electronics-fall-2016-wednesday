@@ -56,6 +56,10 @@ Some inspirational videos:
 Lecture:
 - Homework Review
 
+Workshop:
+-   Together, we'll write code to generate this image:
+    ![rects](img/rects.png)
+
 Lab:
 #### Sketching with P5.js
 
