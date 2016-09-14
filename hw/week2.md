@@ -1,6 +1,6 @@
 ### Homework 2 (due Sunday, September 18, 2016)
 
-**This homework has two parts:** complete the [in-class sketches](../README.md#recreating-sketches) and submit them in your homework repository. Label these sketches `inclass-1.js` etc. and the programming practice problems below by **Sunday night**.
+**This homework has two parts:** complete the [in-class sketches](../README.md#recreating-sketches) and submit them in your homework repository (label these sketches `inclass-1.js` etc.); below, complete the programming practice problems by **Sunday night**.
 
 #### Programming Practice (due Sunday)
 
