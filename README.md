@@ -125,3 +125,62 @@ Lab:
 6. Look through the [P5js reference](http://p5js.org/reference/). Pick a function, and use it in a new sketch of your own choosing.
 
 [Homework for Week 2](hw/week2.md)
+
+### Week 3: Wednesday, September 21, 2016
+
+In class:
+
+- Homework review
+
+- Loops review
+
+In class, we reviewed one way of thinking about how to create a loop. We developed the following process:
+
+1. Write down the coordinates of the shapes you want to create in your loop.
+2. Find the pattern for those coordinates
+  a. Where does it start?
+  b. Where does it end?
+  c. How much does it change each time?
+  
+For example, to create the following sketch:
+
+![triangle of lines](img/triangle.png)
+
+...start by writing down some endpoints for those lines:
+
+```
+(20, 20) -> (20, 20)
+(20, 30) -> (30, 20)
+(20, 40) -> (40, 20)
+(20, 50) -> (50, 20)
+(20, 60) -> (60, 20)
+(20, 70) -> (70, 20)
+(20, 80) -> (80, 20)
+.
+.
+.
+(20, 480) -> (480, 20)
+```
+
+...from these coordinates, we can find a pattern for each of the four parameters we need to draw a line:
+
+- `startX`: always 20
+- `startY`: starts at 20, ends at 480, goes up by 10 each time
+- `endX`: starts at 20, ends at 480, goes up by 10 each time
+- `endY`: always 20
+
+...from this pattern, we can generate a loop that draws these lines, by creating a variable that starts at `20`, ends at `480`, and goes up by `10` each time. We won't call the variable `x` or `y` beacuse we don't use it exclusively for either coordinate.
+
+```javascript
+for (var i = 20; i <= 480; i = i + 10) {
+  var startX = 20;
+  var startY = i;
+  var endX = i;
+  var endY = 20;
+  line(startX, startY, endX, endY);
+}
+```
+
+You'll explore a few more similar puzzles in the homework!
+
+[Homework for Week 3](hw/week3.md)

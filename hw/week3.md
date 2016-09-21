@@ -2,6 +2,9 @@
 
 **This homework has two parts:** complete the loop exercizes below and submit them in your [homework repository](../github-guide.md) (label these sketches `sketch-1.js` etc.); then, go back and complete five of the practice sketches from [last week's homework assignment](week2.md) (if you haven't yet).
 
+As a reminder, **please email us if you get stuck!** We are on email more than is probably healthy, and we are happy to answer questions. Also please make use of the help available to you at CCA: You can get hands-on, in-person help by stopping by the Hybrid Lab and speaking with a lab monitor, or by making an appointment with one of the [Software or Math/Science coaches at the Learning Resources Center](https://www.cca.edu/students/resources/appointments).
+
+
 #### Programming Practice 
 
 - **Assignment**: Reproduce all five of the sketches below.
