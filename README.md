@@ -191,6 +191,7 @@ Homework Review
 - No major issues! Make sure you understand conceptually how nested loops work.
 
 Lecture
+
 1.  Animations!
     
     We wrote some basic code for a circle bouncing back and forth horizontally across the canvas:
