@@ -184,3 +184,176 @@ for (var i = 20; i <= 480; i = i + 10) {
 You'll explore a few more similar puzzles in the homework!
 
 [Homework for Week 3](hw/week3.md)
+
+### Week 4: Wednesday, September 28, 2016
+
+Homework Review
+- No major issues! Make sure you understand conceptually how nested loops work.
+
+Lecture
+1.  Animations!
+    
+    We wrote some basic code for a circle bouncing back and forth horizontally across the canvas:
+    
+    ```
+    var x;
+    var speed;
+    
+    function setup() {
+      createCanvas(200, 200);
+      x = 0;
+      speed = 3;
+    }
+    
+    function draw() {
+      background(255);
+      ellipse(x, 50, 20, 20);
+      x = x + speed;
+    
+      // x+10: right edge of the circle
+      if (x+10 >= width) {
+        speed = -3;
+      }
+      // x-10: left edge of the circle
+      if (x-10 <= 0) {
+        speed = 3;
+      }
+    }
+    ```
+    
+    Then, we added a y-coordinate so that the circle can move independently in the `x` and `y` directions. Below, we also renamed `speed` as `vx` and `vy`, represending velocity in the `x` and `y` directions:
+    
+    ```
+    var x, y;
+    var vx, vy;
+    
+    function setup() {
+      createCanvas(200, 200);
+      x = width/2;
+      y = height/2;
+      vx = 3;
+      vy = 2;
+    }
+    
+    function draw() {
+      background(255);
+      ellipse(x, y, 20, 20);
+      x = x + vx;
+      y = y + vy;
+    
+      // x+10: right edge of the circle
+      if (x+10 >= width) {
+        vx = -abs(vx);
+      }
+      // x-10: left edge of the circle
+      if (x-10 <= 0) {
+        vx = abs(vx);
+      }
+    
+      // y+10: bottom edge of the circle
+      if (y+10 >= width) {
+        vy = -abs(vy);
+      }
+      // y-10: top edge of the circle
+      if (y-10 <= 0) {
+        vy = abs(vy);
+      }
+    }
+    ```
+    
+2.  Arrays!
+
+    We then extended this code using arrays, so that we could have 400 circles all at once, without needing 400 variables. (We also added a fifth variable per circle, for color.)
+    
+    ```
+    var x = [];
+    var y = [];
+    var vx = [];
+    var vy = [];
+    var c = [];
+
+    var numCircles = 1000;
+
+    function setup() {
+      createCanvas(600, 600);
+    
+      colorMode(HSB);
+    
+      for (var i = 0; i < numCircles; i = i + 1) {
+        x.push(random(width));
+        y.push(random(height));
+        vx.push(random(-4, 4));
+        vy.push(random(-4, 4));
+        c.push(color(random(360), 100, 100));
+      }
+    }
+
+    function draw() {
+      background(255);
+      for (var i = 0; i < numCircles; i = i + 1) {
+        noStroke();
+        fill(c[i]);
+        ellipse(x[i], y[i], 20, 20);
+    
+        x[i] = x[i] + vx[i];
+        y[i] = y[i] + vy[i];
+    
+        // x+10: right edge of the circle
+        if (x[i] + 10 >= width) {
+          vx[i] = -abs(vx[i]);
+        }
+        // x-10: left edge of the circle
+        if (x[i] - 10 <= 0) {
+          vx[i] = abs(vx[i]);
+        }
+        // y+10: bottom edge of the circle
+        if (y[i] + 10 >= height) {
+          vy[i] = -abs(vy[i]);
+        }
+        // y-10: top edge of the circle
+        if (y[i] - 10 <= 0) {
+          vy[i] = abs(vy[i]);
+        }
+      }
+    }
+    ```
+    
+3.  Following the mouse.
+    
+    Finally, we wrote some code to make a circle follow the mouse. After a few iterations, we ended up with the following:
+    
+    ```
+    var x, y;
+    var vx, vy;
+
+    function setup() {
+      createCanvas(600, 600);
+      x = width/2;
+      y = height/2;
+      vx = 0;
+      vy = 0;
+    }
+
+    function draw() {
+      background(255);
+      fill("red");
+      noStroke();
+      ellipse(x, y, 10, 10);
+    
+      x = x + vx;
+      y = y + vy;
+    
+      var d = dist(x, y, mouseX, mouseY) / 10; // turns out this line is optional! 
+    
+      var dx = mouseX - x;
+      var dy = mouseY - y;
+    
+      vx = dx/10;
+      vy = dy/10;
+    }
+    ```
+    
+    This code sets the speed in the `x` and `y` directions to be 10% of the distance between the `mouseX` and `mouseY` coordinates and the current `x` and `y`. That way, each frame the circle will cover 10% of the distance remaining.
+
+
+[Homework for Week 4](hw/week4.md)
