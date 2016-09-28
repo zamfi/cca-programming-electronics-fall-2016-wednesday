@@ -4,12 +4,12 @@ This homework consists of 5 array practice problems, some of which may be quite 
 
 #### Array Practice
 
-1.  Starting with the following code that we wrote in class, add an additional property to each circle: size. Just as each circle has its own position, velocity, and color, give each circle a distinct size as well.
+1.  Starting with the following code that we wrote in class, add an additional property to each circle: `size`. Just as each circle has its own position, velocity, and color, give each circle a distinct size as well.
 
     You'll need another array for size, which you'll probably want to add values to in your `setup` function. Then use those values when you draw (and move!) the circles.
     
 
-    ```
+    ```javascript
     var x = [];
     var y = [];
     var vx = [];
@@ -75,7 +75,7 @@ This homework consists of 5 array practice problems, some of which may be quite 
 
     Modify the sketch so that it uses arrays instaed, and has 20 circles.
     
-    ```
+    ```javascript
     var x1, y1, vx1, vy1;
     var x2, y2, vx2, vy2;
 
@@ -157,7 +157,7 @@ This homework consists of 5 array practice problems, some of which may be quite 
     
     Here's the code again for your reference:
     
-    ```
+    ```javascript
     var x, y;
     var vx, vy;
 

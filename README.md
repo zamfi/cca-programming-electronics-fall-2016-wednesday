@@ -196,7 +196,7 @@ Lecture
     
     We wrote some basic code for a circle bouncing back and forth horizontally across the canvas:
     
-    ```
+    ```javascript
     var x;
     var speed;
     
@@ -224,7 +224,7 @@ Lecture
     
     Then, we added a y-coordinate so that the circle can move independently in the `x` and `y` directions. Below, we also renamed `speed` as `vx` and `vy`, represending velocity in the `x` and `y` directions:
     
-    ```
+    ```javascript
     var x, y;
     var vx, vy;
     
@@ -266,7 +266,7 @@ Lecture
 
     We then extended this code using arrays, so that we could have 400 circles all at once, without needing 400 variables. (We also added a fifth variable per circle, for color.)
     
-    ```
+    ```javascript
     var x = [];
     var y = [];
     var vx = [];
@@ -323,7 +323,7 @@ Lecture
     
     Finally, we wrote some code to make a circle follow the mouse. After a few iterations, we ended up with the following:
     
-    ```
+    ```javascript
     var x, y;
     var vx, vy;
 
