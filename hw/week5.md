@@ -8,7 +8,17 @@
 
 1. Read the Adafruit Arduino lesson 14: [Servo motors](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors?view=all). We did this in class so it should be a review.
 
-1. Write a short response to this week's readings: Include at least 2 things you learned and 2 questions you have from the reading 
+1. Answer the following questions from this week's readings: 
+
+1.1 What line of code waits one and a half seconds? 
+
+1.1 Why does a resistor need an LED? 
+
+1.1 Why is a breadboard useful?
+
+1.1 Identify at least least 2 things you did not understand from the reading 
+
+1. Complete the 5 array practice problems from last week's homework (if you haven't yet).
 
 Please [email us](mailto:jzamfirescupereira@cca.edu,mshiloh@cca.edu) if you have any questions.
 
