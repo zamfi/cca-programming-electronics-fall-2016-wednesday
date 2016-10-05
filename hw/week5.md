@@ -8,7 +8,7 @@
 
 1. Read the Adafruit Arduino lesson 14: [Servo motors](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors?view=all). We did this in class so it should be a review.
 
-1. Answer the following questions from this week's readings: 
+1. Create a new GitHub repository, and in the README.md file, answer the following questions from this week's readings: 
 
   a. What line of code waits one and a half seconds? 
 
