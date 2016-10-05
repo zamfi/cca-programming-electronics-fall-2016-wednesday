@@ -10,13 +10,13 @@
 
 1. Answer the following questions from this week's readings: 
    
-   1.1 What line of code waits one and a half seconds? 
+  1.1 What line of code waits one and a half seconds? 
    
-   1.1 Why does a resistor need an LED? 
+  1.1 Why does a resistor need an LED? 
    
-   1.1 Why is a breadboard useful?
+  1.1 Why is a breadboard useful?
    
-   1.1 Identify at least least 2 things you did not understand from the reading 
+  1.1 Identify at least least 2 things you did not understand from the reading 
 
 1. Complete the 5 array practice problems from last week's homework (if you haven't yet).
 
