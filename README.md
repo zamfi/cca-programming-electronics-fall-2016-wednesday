@@ -358,3 +358,29 @@ Lecture
 
 
 [Homework for Week 4](hw/week4.md)
+
+### Week 5: Wednesday, October 5, 2016
+
+Homework Review
+
+- We reviewed arrays and the homework assignments
+
+Lecture
+
+- We introduced Arduino. 
+
+  - We installed the Arduino software and tested basic functionality using the
+blink example (File -> Examples -> Basics -> Blink)
+
+  - We changed the value in the delay() function to change the blink rate
+
+	- We learned how the solderless breadboard works, and we used it to add an external LED
+
+	- We moved the external LED to a different pin, and learned what changes we needed to make to the program to make the external LED on a different pin blink
+
+	- We modified the program further so that both the built-in LED as well as the external LED would blink, and we discussed different blinking patterns.
+
+	- We then moved from output to input, and built a circuit using a light sensor (specifically, an LDR or Light Dependent Resistor). We learned how to use the serial monitor to view numbers that were being sent from Arduino to the laptop.
+
+
+[Homework for Week 5](hw/week5.md)
