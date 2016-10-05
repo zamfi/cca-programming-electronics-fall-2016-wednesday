@@ -1,4 +1,4 @@
-### Homework 4 (due Sunday, October 9, 2016)
+### Homework 5 (due Sunday, October 9, 2016)
 
 1. Read the Adafruit Arduino Lesson 0: [Getting Started](https://learn.adafruit.com/lesson-0-getting-started?view=all). They use a different kit so don't worry about the parts they describe.  Read for the general information.
 
