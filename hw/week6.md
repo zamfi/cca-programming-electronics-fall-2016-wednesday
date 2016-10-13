@@ -1,4 +1,4 @@
-### Homework 5 (due Sunday, October 16, 2016)
+### Homework 6 (due Sunday, October 16, 2016)
 
 This week's assignment is a review of what we did in class, plus an extra lab assignment to learn about `analogWrite`, an approximately analog version of `digitalWrite`.
 
