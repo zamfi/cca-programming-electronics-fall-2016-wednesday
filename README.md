@@ -400,7 +400,48 @@ Lab
 - Add Serial.print() to see where motor has difficulties
 - Change map() to accommodate
 - Discussed other programs interacting with data from Arduino
-- Demonstrated Processing changing color according to these values (J.D. to add code)
+- Demonstrated Processing changing color according to these values. We ran this code in Arduino:
+  ```arduino
+  void setup() {
+    Serial.begin(9600);
+  }
+
+  void loop() {
+    // print the analog value from pin A0 every 100 milliseconds
+    Serial.println(analogRead(A0));
+    delay(100);
+  }
+  ```
+  Here's the complementary code for Processing:
+  ```processing
+  import processing.serial.*;
+
+  Serial port;
+  void setup() {
+    size(100, 100);
+    println(Serial.list());
+    
+    // you'll need to pick the right port from the list that prints above!
+    port = new Serial(this, "/dev/tty.usbmodem411", 9600);
+  }
+
+  // store the value outside draw because several frames may pass 
+  // between receiving new numbers from the Serial port
+  int value = 0;
+  void draw() {
+    background(map(value, 0, 1023, 0, 255));
+    
+    if (port.available() > 5) {                // if there's at least a few characters available...
+      String in = port.readStringUntil('\n');  // read up to and including a 'newline' character
+      
+      // trim the string value to lose the newline character (e.g., "123\n" -> "123")
+      // then convert what's left into an integer (e.g., "123" -> 123)
+      value = int(in.substring(0, in.length()-2));
+      
+      System.out.println("value is "+value);
+    }
+  }
+  ```
 
 
 [Homework for Week 6](hw/week6.md)
