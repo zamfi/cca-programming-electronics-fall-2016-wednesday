@@ -18,5 +18,5 @@ In order to complete this week’s homework assignment you will need to go to th
     4. Answer these questions, and upload them to your Github repository:
       1. Why can you only use certain pins for `analogWrite()`?
       2. What is the range the map() function maps the value to? Why this range? 
-  3. Email us a link to your Github by Sunday night.
+  3. **Email us a link to your Github by Sunday night.**
 
