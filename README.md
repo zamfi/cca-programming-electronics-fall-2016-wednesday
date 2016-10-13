@@ -384,3 +384,23 @@ blink example (File -> Examples -> Basics -> Blink)
 
 
 [Homework for Week 5](hw/week5.md)
+
+### Week 6: Wednesday, October 12, 2016
+
+Homework Review
+
+- Great discussion of extremely tangential electrical principles
+- Review LDR circuit, explain voltage divider, explain potentiometer
+
+Lab
+
+- Do analogReadSerial example with potentiometer
+- Add servo, do servo knob example
+- Explain map() and serial.print()
+- Add Serial.print() to see where motor has difficulties
+- Change map() to accommodate
+- Discussed other programs interacting with data from Arduino
+- Demonstrated Processing changing color according to these values (J.D. to add code)
+
+
+[Homework for Week 6](hw/week6.md)
