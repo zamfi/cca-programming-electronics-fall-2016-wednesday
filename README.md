@@ -445,3 +445,16 @@ Lab
 
 
 [Homework for Week 6](hw/week6.md)
+
+### Week 7: Wednsday, October 19, 2016
+
+Homework Review
+
+- We looked at a few different ways to write code that does the same thing: turning on two different LEDs at two ends of a range.
+
+Workshop
+
+- We learned about transistors, powering a motor, using an Arduino pin, but through a transistor.
+- We then created an H-bridge circuit and connected a motor to it, to control the direction of rotation of the motor as well as its speed.
+
+[Homework for Week 7](hw/week7.md)
