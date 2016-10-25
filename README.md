@@ -455,6 +455,9 @@ Homework Review
 Workshop
 
 - We learned about transistors, powering a motor, using an Arduino pin, but through a transistor.
-- We then created an H-bridge circuit and connected a motor to it, to control the direction of rotation of the motor as well as its speed.
+- We then built an H-bridge circuit and connected a motor to it, to control the direction of rotation of the motor as well as its speed. Here is the schematic we used:
+
+![In this simple Arduino to H-bridge circuit the motor is powered by the
+Arduino 5V pin](img/l293d_5V_schem.png)
 
 [Homework for Week 7](hw/week7.md)
