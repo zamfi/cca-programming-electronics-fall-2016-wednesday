@@ -446,7 +446,7 @@ Lab
 
 [Homework for Week 6](hw/week6.md)
 
-### Week 7: Wednsday, October 19, 2016
+### Week 7: Wednesday, October 19, 2016
 
 Homework Review
 
@@ -461,3 +461,10 @@ Workshop
 Arduino 5V pin](img/l293d_5V_schem.png)
 
 [Homework for Week 7](hw/week7.md)
+
+### Week 8: Wednesday, October 26, 2016
+
+- Review practice quiz
+- We added a second motor to our H-bridge:
+
+![Arduino, H-bridge, and two motors](img/l293d_5V_twoMotors_schem.png)
