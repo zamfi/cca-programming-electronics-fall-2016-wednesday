@@ -1,4 +1,4 @@
-### Homework 8 (due Sunday, October 30, 2016)
+### Homework 8 (Part 1 is due Monday, part 2 is due Sunday, October 30, 2016)
 
 This week's homework is to complete your vehicle chassis and do another code tracing exercise.
 
@@ -9,7 +9,7 @@ This week's homework is to complete your vehicle chassis and do another code tra
    Leave room for a battery pack so that your vehicle can run without being attached to your computer. We will provide either rechargable USB batteries or 9V batteries.
    
    If you don't have a caster it might be sufficient to provide a skid or other device that slides smoothly on the floor.
-
+   
 
 2. **Assignment:** Trace the code in [this pdf](https://github.com/zamfi/cca-programming-electronics-fall-2016-monday/blob/master/hw/tracer.pdf?raw=true) as though you are the computer, like we did in class.
    1. For each new variable, add a new entry to the Computer Memory table.
