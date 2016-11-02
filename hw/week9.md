@@ -30,7 +30,7 @@ back-and-forth to refine your project idea -- the sooner you send it to us the m
   
   - In class, you'll start to write a proposal for your final project. If you have questions about a particular component or concept, bring it or bring a prototype.
   
-2. Prepare for the in-class quiz on Monday, November 7! As a reminder, here are the rules and expectations for the quiz:
+2. Prepare for the in-class quiz on Wednesday, November 9! As a reminder, here are the rules and expectations for the quiz:
 
    - Open-notes -- bring whatever notes you wish, including the practice quiz! Printed-out notes are fine.
    - No electronic devices allowed -- no mobile phones, no laptops, no tables, no kindles, no Arduinos -- in short, nothing electronic and nothing that can run code (except your brain!)
