@@ -470,3 +470,6 @@ Arduino 5V pin](img/l293d_5V_schem.png)
 ![Arduino, H-bridge, and two motors](img/l293d_5V_twoMotors_schem.png)
 
 [Homework for Week 8](hw/week8.md)
+
+[Homework for Week 9](hw/week9.md)
+
