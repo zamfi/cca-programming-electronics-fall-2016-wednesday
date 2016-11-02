@@ -471,5 +471,13 @@ Arduino 5V pin](img/l293d_5V_schem.png)
 
 [Homework for Week 8](hw/week8.md)
 
+### Week 9: Wednesday, November 2, 2016
+
+- Finish practice quiz
+- Review code tracing assignment
+- Rebuild vehicles with two motors
+- Add two LDRs to vehicle (coding possibilities include seeking or avoiding
+light)
+
 [Homework for Week 9](hw/week9.md)
 
