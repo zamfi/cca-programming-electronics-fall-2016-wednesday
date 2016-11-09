@@ -486,6 +486,7 @@ light)
 In class:
 
 - Quiz!
+- Discuss project ideas
 
 #### Final Project
 
