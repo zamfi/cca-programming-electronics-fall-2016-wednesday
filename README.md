@@ -481,3 +481,22 @@ light)
 
 [Homework for Week 9](hw/week9.md)
 
+### Week 10: Wednesday, November 9, 2016
+
+In class:
+
+- Quiz!
+
+#### Final Project
+
+Prepare a proposal for your final project.
+
+Create a new github repository for your project, and modify the README.md file to include your project proposal. To learn about formatting text in markdown `.md` files, read [this tutorial](https://help.github.com/articles/markdown-basics/) and look at the [project proposal template](project-template.md).
+
+We've also created a [sample project proposal](sample-proposal.md) for your perusal.
+
+Your proposal should be thoughtful, complete, and should take into consideration the feedback you received from us and your classmates. You can always modify what you're doing later on, but your proposal should describe a complete project.
+
+The final project is your opportunity to put to work what you've learned so far in class, and to build the skills you're most interested in taking forward with you into your career. *Each assignment is in the project sequence is required, so put in the time to ensure that each is complete and well-considered!*
+
+[Homework for Week 10](hw/week10.md)
