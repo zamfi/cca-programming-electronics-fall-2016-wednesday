@@ -484,6 +484,6 @@ light)
 ### Week 10: Wednesday, November 9, 2016
 
 - Midterm exam
-- Review project proposal ![template](https://github.com/zamfi/cca-programming-electronics-fall-2016-monday/blob/master/project-template.md) and [sample](https://github.com/zamfi/cca-programming-electronics-fall-2016-monday/blob/master/sample-proposal.md)
+- Review project proposal [template](https://github.com/zamfi/cca-programming-electronics-fall-2016-monday/blob/master/project-template.md) and [sample](https://github.com/zamfi/cca-programming-electronics-fall-2016-monday/blob/master/sample-proposal.md)
 - Discuss your project ideas
 
